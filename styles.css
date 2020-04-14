@@ -1,0 +1,121 @@
+/* Elements */
+
+hr {
+  border: solid;
+  border-width: medium;
+  border-color: #faee12;
+  margin-bottom: 0;
+}
+
+
+.container-fluid {
+  padding: 3% 5.5rem;
+  margin: 0;
+}
+
+/* Nav Bar */
+
+.navbar {
+  background-color: #25283b;
+  padding: 0 4.5rem;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #faee12;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #faee12;
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.logo-img {
+  height: 90px;
+}
+
+/* Title Section */
+
+#title {
+  margin-bottom: 5rem;
+}
+
+.col-lg-5 {
+text-align: center;
+}
+
+.title-image {
+  align-self: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.title-description {
+  margin-top: 2.5rem;
+  text-align: justify;
+  padding: 0 20px 0 5px;
+}
+
+/* Offerings Section */
+
+.offerings-description {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: justify;
+  padding: 0;
+}
+
+.offerings{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.offerings-individual-description{
+  margin-top: 1.5rem;
+  padding: 0 10%;
+  height: 150px;
+}
+
+
+
+.offering-logo{
+  color: #faee12;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #25283b;
+  padding-top: 25px;
+  margin-bottom: 1rem;
+}
+
+
+/* Footer Section */
+
+#footer {
+  background-color: #666;
+  text-align: center;
+}
+
+#footer .container-fluid {
+  padding: 3% 15% 0;
+  text-align: center;
+}
+
+.footer-text {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 5px;
+}
+.footer-text:hover {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.copyright {
+  position: relative;
+  margin-top: 20px;
+  color: #fff;
+}
