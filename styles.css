@@ -163,6 +163,15 @@ text-align: center;
   h3 {
     text-decoration: none;
   }
+  
+    h3 {
+    font-size: 3rem;
+    text-decoration: none;
+  }
+
+  a{
+    font-size: 2rem;
+  }
 
   p {
     font-size: 2rem;
@@ -175,6 +184,12 @@ text-align: center;
     background-color: #25283b;
     padding: 3rem 4.5rem;
   }
+  
+  .navbar-toggler-icon{
+    width: 4rem;
+    height: 4rem;
+  }
+  
   #title {
     text-align: center;
   }
