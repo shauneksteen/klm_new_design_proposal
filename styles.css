@@ -7,10 +7,30 @@ hr {
   margin-bottom: 0;
 }
 
+h1 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
 
-.container-fluid {
+h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h3 {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.container {
   padding: 3% 5.5rem;
   margin: 0;
+  max-width: none;
 }
 
 /* Nav Bar */
@@ -28,6 +48,7 @@ hr {
   color: #faee12;
   padding: 0 18px;
 }
+
 
 .nav-link{
   font-size: 1.2rem;
@@ -61,6 +82,11 @@ text-align: center;
 
 /* Offerings Section */
 
+#offering {
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
 .offerings-description {
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -75,6 +101,7 @@ text-align: center;
 
 .offerings-individual-description{
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
   padding: 0 10%;
   height: 150px;
 }
@@ -120,8 +147,65 @@ text-align: center;
   color: #fff;
 }
 
-@media screen (max-width: 992px) {
-  .navbar {
-    height: 10%;
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
   }
+
+  h2 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  h3 {
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  body {
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: #25283b;
+    padding: 3rem 4.5rem;
+  }
+  #title {
+    text-align: center;
+  }
+  .offerings-individual-description{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0 10%;
+    height: inherit;
+  }
+  .request-form{
+    margin-right: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+/* Contact page */
+
+#contact{
+  margin-bottom: 5rem;
+}
+
+.contact-details {
+  margin-top: 2rem;
+}
+
+.contact-icon{
+  color: #25283b;
+  font-size: 2rem;
+}
+
+.btn-primary{
+  background-color: #25283b;
+  border: none;
 }
