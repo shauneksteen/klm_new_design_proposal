@@ -101,7 +101,7 @@ text-align: center;
 
 .offerings-individual-description{
   margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   padding: 0 10%;
   height: 150px;
 }
@@ -124,6 +124,7 @@ text-align: center;
 #footer {
   background-color: #666;
   text-align: center;
+  font-size: 1rem;
 }
 
 #footer .container-fluid {
@@ -135,6 +136,7 @@ text-align: center;
   text-decoration: none;
   color: #fff;
   padding: 0 5px;
+  font-size: 1.2rem;
 }
 .footer-text:hover {
   text-decoration: none;
@@ -145,6 +147,7 @@ text-align: center;
   position: relative;
   margin-top: 20px;
   color: #fff;
+  font-size: 1rem;
 }
 
 @media (max-width: 1028px) {
@@ -163,7 +166,7 @@ text-align: center;
   h3 {
     text-decoration: none;
   }
-  
+
     h3 {
     font-size: 3rem;
     text-decoration: none;
@@ -184,12 +187,16 @@ text-align: center;
     background-color: #25283b;
     padding: 3rem 4.5rem;
   }
-  
-  .navbar-toggler-icon{
+
+  .navbar-toggler-icon {
     width: 4rem;
     height: 4rem;
   }
-  
+
+  .nav-item {
+    font-size: 2rem;
+  }
+
   #title {
     text-align: center;
   }
